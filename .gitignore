@@ -3,3 +3,5 @@
 /generated/
 /vendor/
 /pub/
+app/etc/config.php
+app/etc/env.php
