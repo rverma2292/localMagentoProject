@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="54.144.135.149" id="f979a68b-22bb-4af8-bd78-eed51b0ec0f4" port="22" nameFormat="DESCRIPTIVE" username="oracle" />
+      <sshConfig authType="PASSWORD" id="6ef0cb40-8d75-41c3-8d13-8c8c0350f176" port="22" customName="ideotics" nameFormat="CUSTOM" />
+    </configs>
+  </component>
+</project>

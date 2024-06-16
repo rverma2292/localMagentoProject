@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d67ef82e-a2ec-47b7-9d87-fa5d6df71912" name="oraclecity">
+        <fileTransfer rootFolder="/home/oracle/public_html" accessType="SFTP" host="54.144.135.149" port="22" sshConfigId="f979a68b-22bb-4af8-bd78-eed51b0ec0f4" sshConfig="oracle@54.144.135.149:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="6c8836bb-ef5d-4df8-8434-8159e50eca7a" name="ideotics">
+        <fileTransfer accessType="SFTP" port="22" sshConfigId="6ef0cb40-8d75-41c3-8d13-8c8c0350f176" sshConfig="ideotics">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

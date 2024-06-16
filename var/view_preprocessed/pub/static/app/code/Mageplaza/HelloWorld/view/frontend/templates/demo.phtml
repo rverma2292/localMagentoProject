@@ -1,0 +1,15 @@
+<?php /** @var \Mageplaza\HelloWorld\Block $block */ ?> <div id="uic_demo_container" data-bind="scope: 'uicdemo'"><!-- ko template: getTemplate() --><!-- /ko --></div><script type="text/x-magento-init">
+    {
+        "#uic_demo_container" : {
+            "Magento_Ui/js/core/app": {
+                "components" : {
+                    "uicdemo" : {
+                        "component": "Mageplaza_HelloWorld/js/view/demo",
+                        "config": {
+                            "template": "Mageplaza_HelloWorld/demo"
+                        }
+                    }
+                }
+            }
+        }
+    }</script>
